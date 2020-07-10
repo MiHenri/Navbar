@@ -16,7 +16,6 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.6;
-  padding: 200px 200px;
 }
 
 li {
@@ -26,6 +25,7 @@ li {
 /* Navbar */
 .navbar {
   align-items: center;
+  margin-top: 200px;
   margin-right: auto;    
   margin-left: auto;    
   max-width: 100%;    
@@ -38,21 +38,16 @@ li {
   border-bottom: 2px solid gray;
   height: 10px;
   padding: 7px 20px;
-  display: table-cell;
-  transition: all .1s ease 0s; 
 }
 
 .navbar a:hover {
   height: 10px;
   padding: 7px 20px;
-  display: table-cell;
-  transition: all .4s ease-in-out;
 }
 
 a:hover{
   opacity: 1;
   text-decoration: none;
-  transition: all .4s ease-in-out;
 }
 
 .main-nav {
@@ -69,6 +64,7 @@ a:hover{
 
 .main-nav-active {
   color: black;
+  transition: all .4s ease-in-out;
 }
 
 .line{
@@ -98,9 +94,11 @@ a:nth-child(5):active .line{
   transition: all .4s ease-in-out;
 }
 
-
 a:nth-child(6):active{
-  transform: translate(125px);
+  transition: all .4s ease-in-out;
+}
+
+a:nth-child(7):active{
   transition: all .4s ease-in-out;
 }
 
