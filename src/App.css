@@ -13,22 +13,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
   padding: 200px 200px;
 }
 
-a {
-  color: black;
-}
-
 li {
-  display: inline-block;
-}
-li :hover{
   display: inline-block;
 }
 
@@ -43,6 +34,7 @@ li :hover{
 }
 
 .navbar a {
+  color: #807e7e;
   text-decoration: none;
   border-bottom: 2px solid;
   height: 10px;
@@ -75,11 +67,6 @@ a:hover{
 
 .main-nav-active {
   color: black;
-  border-bottom: 2px solid black !important;
-  z-index: 1;
-}
-
-.main-nav a {
   border-bottom: 2px solid black !important;
   z-index: 1;
 }
