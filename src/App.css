@@ -34,9 +34,8 @@ li {
 }
 
 .navbar a {
-  color: #807e7e;
   text-decoration: none;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid gray;
   height: 10px;
   padding: 7px 20px;
   display: table-cell;
@@ -44,32 +43,65 @@ li {
 }
 
 .navbar a:hover {
-  border-bottom: 2px solid;
-  border-color:rgb(0, 0, 0);
   height: 10px;
   padding: 7px 20px;
   display: table-cell;
-  transition: all .1s ease 0s; 
+  transition: all .4s ease-in-out;
 }
 
 a:hover{
   opacity: 1;
   text-decoration: none;
-  transition: all .1s ease 0s; 
+  transition: all .4s ease-in-out;
 }
 
-
+.main-nav {
+  color:#666666;
+}
 
 .main-nav:hover {
   color:var(--light-color);
-  /* color: black; */
+}
+
+.main-nav:active{
+  color: black;
 }
 
 .main-nav-active {
   color: black;
-  border-bottom: 2px solid black !important;
-  z-index: 1;
 }
 
+.line{
+  color: black;
+  border-bottom: 2px solid black !important;
+  z-index: 1;
+  transition: all .4s ease-in-out;
+}
+
+a:nth-child(2):active .line{
+  transform: translate(125px);
+  transition: all .4s ease-in-out;
+}
+
+a:nth-child(3):active .line{
+  transform: translate(225px);
+  transition: all .4s ease-in-out;
+}
+
+a:nth-child(4):active .line{
+  transform: translate(325px);
+  transition: all .4s ease-in-out;
+}
+
+a:nth-child(5):active .line{
+  transform: translate(425px);
+  transition: all .4s ease-in-out;
+}
+
+
+a:nth-child(6):active{
+  transform: translate(125px);
+  transition: all .4s ease-in-out;
+}
 
   
