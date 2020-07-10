@@ -94,11 +94,11 @@ a:nth-child(5):active .line{
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(6):active{
+a:nth-child(6):active .line{
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(7):active{
+a:nth-child(7):active .line{
   transition: all .4s ease-in-out;
 }
 
