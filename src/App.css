@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+/* Global Styles */
+:root {
+  --primary-color: #ffffff;
+  --light-color: #0084ff;
+  --dark-color: #000000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  padding: 200px 200px;
+}
+
+a {
+  color: black;
+}
+
+li {
+  display: inline-block;
+}
+li :hover{
+  display: inline-block;
+}
+
+/* Navbar */
+.navbar {
+  align-items: center;
+  margin-right: auto;    
+  margin-left: auto;    
+  max-width: 100%;    
+  min-width: 1000px;
+  z-index: 1;
+}
+
+.navbar a {
+  text-decoration: none;
+  border-bottom: 2px solid;
+  height: 10px;
+  padding: 7px 20px;
+  display: table-cell;
+  transition: all .1s ease 0s; 
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid;
+  border-color:rgb(0, 0, 0);
+  height: 10px;
+  padding: 7px 20px;
+  display: table-cell;
+  transition: all .1s ease 0s; 
+}
+
+a:hover{
+  opacity: 1;
+  text-decoration: none;
+  transition: all .1s ease 0s; 
+}
+
+
+
+.main-nav:hover {
+  color:var(--light-color);
+  /* color: black; */
+}
+
+.main-nav-active {
+  color: black;
+  border-bottom: 2px solid black !important;
+  z-index: 1;
+}
+
+.main-nav a {
+  border-bottom: 2px solid black !important;
+  z-index: 1;
+}
+
+
+  
