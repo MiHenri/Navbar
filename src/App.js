@@ -7,7 +7,7 @@ class App extends Component {
 
       return(
        <div className='App'>
-          <nav className='navbar'>     
+          <nav className='navbar gray-line'>     
             <li>
                 <NavLink exact className="main-nav" activeClassName="main-nav-active line" to='./Cupertino.js' activeStyle={{color: 'black'}}>Cupertino</NavLink>
                 <NavLink exact className="main-nav" activeClassName="main-nav-active line" to='./NewYorkCity.js'activeStyle={{color: 'black'}}>New York City</NavLink>

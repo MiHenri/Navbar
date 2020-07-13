@@ -34,23 +34,21 @@ li {
 }
 
 .navbar a {
-  text-decoration: none;
+  margin: 20px;
   border-bottom: 2px solid gray;
   height: 10px;
-  padding: 7px 20px;
+  padding: 7px 0px;
 }
 
 .navbar a:hover {
   height: 10px;
-  padding: 7px 20px;
-}
-
-a:hover{
-  opacity: 1;
-  text-decoration: none;
+  padding: 7px 0px;
 }
 
 .main-nav {
+  border-bottom: 2px solid gray;
+  padding: 7px 20px;
+  text-decoration: none;
   color:#666666;
 }
 
@@ -67,6 +65,12 @@ a:hover{
   transition: all .4s ease-in-out;
 }
 
+.gray-line{
+  height: 35px;
+  width: 1000px;
+  border-bottom: 2px solid gray !important;
+}
+
 .line{
   color: black;
   border-bottom: 2px solid black !important;
@@ -74,31 +78,31 @@ a:hover{
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(2):active .line{
+.line a:nth-child(2):after{
   transform: translate(125px);
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(3):active .line{
+.line a:nth-child(3):after{
   transform: translate(225px);
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(4):active .line{
+.line a:nth-child(4):after{
   transform: translate(325px);
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(5):active .line{
+.line a:nth-child(5):after{
   transform: translate(425px);
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(6):active .line{
+.line a:nth-child(6):after {
   transition: all .4s ease-in-out;
 }
 
-a:nth-child(7):active .line{
+.line a:nth-child(7):after {
   transition: all .4s ease-in-out;
 }
 
